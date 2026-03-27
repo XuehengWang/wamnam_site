@@ -23,8 +23,8 @@ export default function SiteFooter() {
             <Image
               src="/ins_logo.png"
               alt="Instagram logo"
-              width={50}
-              height={50}
+              width={60}
+              height={60}
               className="h-5 w-5 object-contain"
             />
             <span>@wamnam.official</span>
@@ -40,7 +40,7 @@ export default function SiteFooter() {
             <Image
               src="/youtube_logo.png"
               alt="Instagram logo"
-              width={20}
+              width={10}
               height={20}
               className="h-4 w-4 object-contain"
             />
