@@ -27,13 +27,14 @@ const upcoming: CardItem[] = [
   {
     title: "Theatre Performance - look alive",
     // subtitle: "Performances on 22nd & 23rd August",
-    image: "/images/upcoming/Dancebase_class_spring2026.jpg",
+    image: "/images/upcoming/Theatre_look_alive.jpg",
+    
     // href: "#",
   },
   {
     title: "Dance Base Class Spring 2026 – Hip Hop Funkdementals",
     // subtitle: "Basics",
-    image: "/images/upcoming/Theatre_look_alive.jpg",
+    image: "/images/upcoming/Dancebase_class_spring2026.jpg",
     // href: "#",
   },
 ];
@@ -42,13 +43,13 @@ const upcoming: CardItem[] = [
 
 const highlights: CardItem[] = [
   { title: "Video Project – Fall Back", 
-    image: "/images/highlights/Theatre_Odyssey.jpg", 
+    image: "/images/highlights/fall_back.png",
     // href: "#" 
   },
   {
     title: "Theatre Performance – A Digital Dance Odyssey",
     // subtitle: "Ignite 2025",
-    image: "/images/highlights/fall_back.png",
+    image: "/images/highlights/Theatre_Odyssey.jpg", 
     // href: "#",
   },
   {
