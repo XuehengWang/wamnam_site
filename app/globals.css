@@ -24,3 +24,45 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.marker-line {
+  position: relative;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  background: rgba(59, 130, 246, 0.18); /* blue-500 / 18% */
+}
+
+.marker-line {
+  background: transparent;
+  padding: 0;
+}
+
+/* .marquee {
+  display: inline-flex;
+  gap: 2rem;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 24s linear infinite;
+} */
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 28s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
