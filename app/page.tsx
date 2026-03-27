@@ -27,14 +27,14 @@ const upcoming: CardItem[] = [
   {
     title: "Theatre Performance - look alive",
     // subtitle: "Performances on 22nd & 23rd August",
-    image: "/images/upcoming-1.jpg",
-    href: "#",
+    image: "/images/upcoming/Dancebase_class_spring2026.jpg",
+    // href: "#",
   },
   {
     title: "Dance Base Class Spring 2026 – Hip Hop Funkdementals",
     // subtitle: "Basics",
-    image: "/images/upcoming-2.jpg",
-    href: "#",
+    image: "/images/upcoming/Theatre_look_alive.jpg",
+    // href: "#",
   },
 ];
 
@@ -42,19 +42,19 @@ const upcoming: CardItem[] = [
 
 const highlights: CardItem[] = [
   { title: "Video Project – Fall Back", 
-    image: "/images/crew-1.jpg", 
-    href: "#" 
+    image: "/images/highlights/Theatre_Odyssey.jpg", 
+    // href: "#" 
   },
   {
     title: "Theatre Performance – A Digital Dance Odyssey",
-    subtitle: "Ignite 2025",
-    image: "/images/crew-2.jpg",
-    href: "#",
+    // subtitle: "Ignite 2025",
+    image: "/images/highlights/fall_back.png",
+    // href: "#",
   },
   {
     title: "K-pop Covers by K-OW - Gnarly (Katseye)",
-    image: "/images/crew-3.jpg",
-    href: "#",
+    image: "/images/highlights/gnarly_youtube_thumbnail.png",
+    // href: "#",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-6 py-20">
         <SectionTitle>Upcoming activities</SectionTitle>
 
-        <div className="mt-12 grid grid-cols-1 gap-x-12 gap-y-14 md:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 gap-x-12 gap-y-14 md:grid-cols-3">
           {upcoming.map((item) => (
             <MediaCard key={item.title} item={item} />
           ))}
@@ -124,7 +124,7 @@ function Hero() {
       {/* dotted texture */}
       <div className="pointer-events-none absolute inset-0 opacity-25 [background-image:radial-gradient(rgba(255,255,255,0.18)_1px,transparent_1px)] [background-size:22px_22px]" />
 
-      <div className="relative mx-auto grid max-w-[1400px] gap-16 px-16 py-8 md:grid-cols-2 md:items-center lg:gap-20 lg:px-28">
+      <div className="relative mx-auto grid max-w-[1400px] gap-16 px-16 py-8 md:grid-cols-[0.85fr_1.15fr] md:items-center lg:gap-20 lg:px-28">
         {/* left image frame */}
         <div className="relative overflow-hidden border border-white/10 bg-white/5 shadow-[0_18px_50px_rgba(0,0,0,0.24)]">
           <div className="relative aspect-[5360/3573]">

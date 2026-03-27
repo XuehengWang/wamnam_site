@@ -16,14 +16,14 @@ export default function TopNav() {
         </a>
 
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-          <Link className="opacity-80 hover:opacity-100" href="/portfolio">
+          {/* <Link className="opacity-80 hover:opacity-100" href="/portfolio">
             Portfolio
-          </Link>
+          </Link> */}
 
           <Link className="opacity-80 hover:opacity-100" href="/members">
             Members
           </Link>
-        </nav>
+        </nav> 
 
         <button
           className="inline-flex items-center rounded-lg border border-slate-900/10 bg-white/30 px-3 py-1 text-sm font-semibold md:hidden"
