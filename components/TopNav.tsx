@@ -20,9 +20,9 @@ export default function TopNav() {
             Portfolio
           </Link> */}
 
-          <Link className="opacity-80 hover:opacity-100" href="/members">
+          {/* <Link className="opacity-80 hover:opacity-100" href="/members">
             Members
-          </Link>
+          </Link> */}
         </nav> 
 
         <button
