@@ -32,7 +32,7 @@ const covers: CoverItem[] = [
 
 export default function KOWPage() {
   return (
-    <main className="min-h-screen bg-[#efefef] text-black">
+    <main className="min-h-screen bg-white text-black">
       <TopNav />
 
       <section className="bg-[#062f33]">
@@ -92,7 +92,7 @@ export default function KOWPage() {
         </div>
       </section>
 
-      <section className="bg-white">
+      <section className="bg-[#efefef]">
         <div className="mx-auto max-w-6xl px-12 py-12 md:py-16">
           <h2
             className={`text-center text-3xl text-black md:text-4xl ${youngSerif.className}`}
