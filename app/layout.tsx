@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { inter, youngSerif } from "@/lib/fonts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,12 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    // This 3 fonts are globally available, but the default is inter
+    <html
+      lang="en"
+      className={`${inter.variable} ${youngSerif.variable} ${geistMono.variable}`}
+    >
+      <body className={`${inter.className} antialiased`}>
         {children}
       </body>
+       
     </html>
   );
 }

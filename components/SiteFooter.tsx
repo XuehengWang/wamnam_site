@@ -1,15 +1,16 @@
 import { Inter, Young_Serif } from "next/font/google";
 import Image from "next/image";
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
+// const inter = Inter({
+//   subsets: ["latin"],
+//   weight: ["400", "500", "600", "700"],
+// });
 
 export default function SiteFooter() {
   return (
-    <footer className={`bg-[#123434] ${inter.className}`}>
-      <div className="mx-auto max-w-6xl px-6 py-10 text-white/80">
+    // <footer className={`bg-[#123434] ${inter.className}`}> // default font already
+    <footer className={`bg-[#123434]`}>
+      <div className="mx-auto max-w-6xl px-6 py-6 text-white/80"> 
         <div className="text-sm font-semibold text-white">WAMNAM Dance Crew</div>
 
         <div className="mt-5 space-y-3 text-sm">
@@ -23,9 +24,9 @@ export default function SiteFooter() {
             <Image
               src="/ins_logo.png"
               alt="Instagram logo"
-              width={60}
-              height={60}
-              className="h-5 w-5 object-contain"
+              width={30}
+              height={30}
+              className="h-7.5 w-7.5 object-contain"
             />
             <span>@wamnam.official</span>
           </a>
@@ -40,9 +41,9 @@ export default function SiteFooter() {
             <Image
               src="/youtube_logo.png"
               alt="Instagram logo"
-              width={10}
+              width={20}
               height={20}
-              className="h-4 w-4 object-contain"
+              className="h-5 w-5 object-contain"
             />
             <span>@WAMNAM</span>
           </a>
