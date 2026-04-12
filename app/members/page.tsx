@@ -58,7 +58,7 @@ const members: Member[] = [
     image: "/images/members/iva.jpg",
   },
   {
-    name: "Faye will complete here",
+    name: "Hole",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
