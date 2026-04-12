@@ -6,6 +6,10 @@ import TopNav from "@/components/TopNav";
 import SiteFooter from "@/components/SiteFooter";
 import { youngSerif } from "@/lib/fonts";
 
+li {
+  white-space: pre-line;
+}
+
 type Member = {
   name: string;
   account: string;
@@ -26,7 +30,7 @@ const members: Member[] = [
     bullets: [
       "Leader/founder of WAMNAM",
       "Classically trained dancer with\n10+ years’ experience",
-      "Professional dance teacher and\nchoreographer",
+      "Professional dance teacher\nand choreographer",
     ],
     image: "/images/members/stef.JPG",
   },
