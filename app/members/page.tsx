@@ -20,13 +20,13 @@ const members: Member[] = [
   {
     name: "Stefani Chertsova",
     account: "@chertsova.dance",
-    pronouns: "She/Her",
-    style: "this girlie does everything",
-    nationality: "Bulgaria",
+    pronouns: “she/her“,
+    style: “Contemporary/Jazz Funk”,
+    nationality: “Bulgaria”,
     bullets: [
       "Leader/founder of WAMNAM",
+      "Professional dance teacher and choreographer",
       "Classically trained dancer with 10+ years’ experience",
-      "stress stress stress",
     ],
     image: "/images/members/stef.JPG",
   },
