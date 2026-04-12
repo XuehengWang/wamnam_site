@@ -6,10 +6,6 @@ import TopNav from "@/components/TopNav";
 import SiteFooter from "@/components/SiteFooter";
 import { youngSerif } from "@/lib/fonts";
 
-li {
-  white-space: pre-line;
-}
-
 type Member = {
   name: string;
   account: string;
