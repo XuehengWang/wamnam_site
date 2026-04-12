@@ -25,8 +25,8 @@ const members: Member[] = [
     nationality: "Bulgaria",
     bullets: [
       "Leader/founder of WAMNAM",
-      "Classically trained dancer with 10+ years’ experience",
-      "Professional dance teacher and choreographer",
+      "Classically trained dancer with\n10+ years’ experience",
+      "Professional dance teacher and\nchoreographer",
     ],
     image: "/images/members/stef.JPG",
   },
