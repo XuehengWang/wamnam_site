@@ -26,6 +26,15 @@ export const portfolioItems: PortfolioItem[] = [
     youtubeUrl: "#",
   },
   {
+    title: "Guess",
+    category: "video-projects",
+    year: "2024",
+    credits:
+      "Caitlin (choreographer) | Alex | Georgia | Monica | Stefani",
+    image: "/images/portfolio/guess.png",
+    youtubeUrl: "#",
+  },
+  {
     title: "Trendsetter",
     category: "video-projects",
     year: "2024",
