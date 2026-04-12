@@ -59,7 +59,7 @@ const members: Member[] = [
   },
   {
     name: "Matteo Putura",
-    account: "@chertsova.dance",
+    account: "@matt.put",
     pronouns: "She/Her",
     style: "this girlie does everything",
     nationality: "Bulgaria",
