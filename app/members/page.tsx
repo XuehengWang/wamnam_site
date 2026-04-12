@@ -58,7 +58,7 @@ const members: Member[] = [
     image: "/images/members/iva.jpg",
   },
   {
-    name: "Hole",
+    name: "Matteo Putura",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -71,7 +71,7 @@ const members: Member[] = [
     image: "/images/members/matt.JPG",
   },
   {
-    name: "Faye will complete here1",
+    name: "Jae Namyslak",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -84,7 +84,7 @@ const members: Member[] = [
     image: "/images/members/jae.jpg",
   },
   {
-    name: "Faye will complete here111",
+    name: "Zoë Hooper",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -97,7 +97,7 @@ const members: Member[] = [
     image: "/images/members/zoe.jpg",
   },
   {
-    name: "TBD by Faye",
+    name: "Alex Myers",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -110,7 +110,7 @@ const members: Member[] = [
     image: "/images/members/alex.JPG",
   },
   {
-    name: "TBD by Faye haha",
+    name: "Caitlin Charters",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
