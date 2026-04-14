@@ -55,12 +55,14 @@ export default function PortfolioCard({ item }: { item: PortfolioItem }) {
 
           {item.youtubeUrl && item.category === "video-projects" && (
             <div className="mt-4 flex justify-end">
-              <Link
-                href={item.youtubeUrl}
-                className="text-[16px] font-bold text-[#2a7f84] underline underline-offset-2 hover:opacity-80"
-              >
-                {"> watch this on youtube"}
-              </Link>
+              <a
+  href={item.youtubeUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[16px] font-bold text-[#2a7f84] underline underline-offset-2 hover:opacity-80"
+>
+  {"> watch this on youtube"}
+</a>
             </div>
           )}
         </div>
