@@ -41,7 +41,7 @@ export const portfolioItems: PortfolioItem[] = [
     credits:
       "Caitlin (choreographer) | Alex | Georgia | Monica | Stefani",
     image: "/images/portfolio/guess.png",
-    youtubeUrl: "https://youtu.be/trQAZQuvz1w?si=NjVpNAKurRHeQR4S",
+    youtubeUrl: "#https://youtu.be/trQAZQuvz1w?si=NjVpNAKurRHeQR4S",
   },
   {
     title: "IGNITE 2026",
