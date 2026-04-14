@@ -44,12 +44,20 @@ export const portfolioItems: PortfolioItem[] = [
     youtubeUrl: "#",
   },
   {
+    title: "IGNITE 2026",
+    category: "theatre-live-performances",
+    subtitle: "[Look Aive]",
+    dateLocation: "28/02/2025, Church Hill Theatre Edinburgh",
+    credits: "Caitlin | Georgia | Iva | Jae | Matteo | Max | Stefani | Wayne | Zoë",
+    image: "/images/portfolio/springboard 2025.jpg",
+  },
+  {
     title: "Springboard 2025",
     category: "theatre-live-performances",
     subtitle: "[Project WAMNAM]",
     dateLocation: "22-23/08/2025, PASS Theatre Edinburgh College",
     credits: "Alex | Caitlin | Georgia | Iva | Jae | Matteo | Max | Stefani | Zoë",
-    image: "/images/portfolio/springboard 2025.jpg",
+    image: "/images/portfolio/ignite_2026.jpg",
   },
   {
     title: "IGNITE 2025",
@@ -60,10 +68,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: "/images/portfolio/ignite_2025.jpg",
   },
   {
-    title: "Hip Hop Course",
+    title: "Hip Hop Funkementals Course",
     category: "teaching-experience",
     description:
-      "Hip Hop Funkamentals @ Dance Base, Spring 2025 - Now Taught by Alex, Iva & Matt",
+      "Hip Hop Funkamentals @ Dance Base, Spring 2025 - Currently taught by Iva & Matt",
     image: "/images/portfolio/hiphop_course.jpg",
   },
   {
