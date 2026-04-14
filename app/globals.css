@@ -70,3 +70,7 @@ body {
 li {
   white-space: pre-line;
 }
+
+p, div, span {
+  white-space: pre-line;
+}
