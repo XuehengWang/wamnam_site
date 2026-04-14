@@ -41,23 +41,23 @@ export const portfolioItems: PortfolioItem[] = [
     credits:
       "Caitlin (choreographer) | Alex | Georgia | Monica | Stefani",
     image: "/images/portfolio/guess.png",
-    youtubeUrl: "#",
+    youtubeUrl: "https://youtu.be/trQAZQuvz1w?si=NjVpNAKurRHeQR4S",
   },
   {
     title: "IGNITE 2026",
     category: "theatre-live-performances",
     subtitle: "[Look Aive]",
     dateLocation: "28/02/2025, Church Hill Theatre Edinburgh",
-    credits: "Caitlin | Georgia | Iva | Jae | Matteo | Max | Stefani | Wayne | Zoë",
-    image: "/images/portfolio/springboard 2025.jpg",
+    credits: "Caitlin | Georgia | Iva | Jae/nMatteo | Max | Stefani | Wayne | Zoë",
+    image: "/images/portfolio/ignite_2026.jpg",
   },
   {
     title: "Springboard 2025",
     category: "theatre-live-performances",
     subtitle: "[Project WAMNAM]",
     dateLocation: "22-23/08/2025, PASS Theatre Edinburgh College",
-    credits: "Alex | Caitlin | Georgia | Iva | Jae | Matteo | Max | Stefani | Zoë",
-    image: "/images/portfolio/ignite_2026.jpg",
+    credits: "Alex | Caitlin | Georgia | Iva/nJae | Matteo | Max | Stefani | Zoë",
+    image: "/images/portfolio/springboard 2025.jpg",
   },
   {
     title: "IGNITE 2025",
