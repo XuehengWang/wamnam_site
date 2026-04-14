@@ -48,7 +48,7 @@ export const portfolioItems: PortfolioItem[] = [
     category: "theatre-live-performances",
     subtitle: "[Look Aive]",
     dateLocation: "28/02/2025, Church Hill Theatre Edinburgh",
-    credits: "Caitlin | Georgia | Iva | Jae/nMatteo | Max | Stefani | Wayne | Zoë",
+    credits: "Caitlin | Georgia | Iva | Jae\nMatteo | Max | Stefani | Wayne | Zoë",
     image: "/images/portfolio/ignite_2026.jpg",
   },
   {
@@ -56,7 +56,7 @@ export const portfolioItems: PortfolioItem[] = [
     category: "theatre-live-performances",
     subtitle: "[Project WAMNAM]",
     dateLocation: "22-23/08/2025, PASS Theatre Edinburgh College",
-    credits: "Alex | Caitlin | Georgia | Iva/nJae | Matteo | Max | Stefani | Zoë",
+    credits: "Alex | Caitlin | Georgia | Iva\nJae | Matteo | Max | Stefani | Zoë",
     image: "/images/portfolio/springboard 2025.jpg",
   },
   {
