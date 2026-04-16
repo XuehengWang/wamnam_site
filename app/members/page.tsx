@@ -18,11 +18,11 @@ type Member = {
 
 const members: Member[] = [
   {
-    name: "Stefani Chertsova",
+    name: "Stefani Aleksandrova Chertsova",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "Contemporary/Jazz Funk",
-    nationality: "Bulgaria",
+    nationality: "Bulgarian",
     bullets: [
       "Leader/founder of WAMNAM",
       "Classically trained dancer with\n10+ years’ experience",
@@ -31,7 +31,7 @@ const members: Member[] = [
     image: "/images/members/stef.JPG",
   },
   {
-    name: "Georgia Green",
+    name: "Georgia Green/Georgia Maeva Zelenova",
     account: "@ggia.gg",
     pronouns: "She/Her",
     style: "ort cloud",
@@ -40,12 +40,12 @@ const members: Member[] = [
     image: "/images/members/ggia.JPG",
   },
   {
-    name: "Max Evans",
+    name: "Max Evans/Maks Ivanov",
     account: "@maxev_",
     pronouns: "He/Him",
-    style: "",
-    nationality: "",
-    bullets: ["1", "2", "3"],
+    style: "england",
+    nationality: "england",
+    bullets: ["bole of waer", "2", "3"],
     image: "/images/members/max.jpg",
   },
   {
@@ -54,11 +54,11 @@ const members: Member[] = [
     pronouns: "She/Her",
     style: "Hip Hop, Contemporary Fusion",
     nationality: "Bulgaria",
-    bullets: ["1", "2", "3"],
+    bullets: ["feta", "multicolour salt", "banitsa"],
     image: "/images/members/iva.jpg",
   },
   {
-    name: "Matteo Putura",
+    name: "Matteo Putura/Matei Putrov",
     account: "@matt.put",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -71,7 +71,7 @@ const members: Member[] = [
     image: "/images/members/matt.JPG",
   },
   {
-    name: "Jae Namyslak",
+    name: "Jae Namyslak/Yoana Namislova",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -84,7 +84,7 @@ const members: Member[] = [
     image: "/images/members/jae.jpg",
   },
   {
-    name: "Zoë Hooper",
+    name: "Zoë Hooper/Zornitsa Obruchova",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -97,7 +97,7 @@ const members: Member[] = [
     image: "/images/members/zoe.jpg",
   },
   {
-    name: "Alex Myers",
+    name: "Alex Myers/Aleks Mircheva",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -110,7 +110,7 @@ const members: Member[] = [
     image: "/images/members/alex.JPG",
   },
   {
-    name: "Caitlin Charters",
+    name: "Caitlin Charters/Katerina Cherneva",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -123,7 +123,7 @@ const members: Member[] = [
     image: "/images/members/caitlin.jpg",
   },
   {
-    name: "Wayne Chang",
+    name: "Wayne Chang/Ivan (Vanko) Chanev",
     account: "@stickman",
     pronouns: "",
     style: "",
