@@ -97,7 +97,7 @@ const members: Member[] = [
     image: "/images/members/zoe.jpg",
   },
   {
-    name: "Alex Myers/Aleks Mircheva",
+    name: "Alex Myers/Aleksandrova Mircheva",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
