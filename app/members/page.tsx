@@ -53,7 +53,7 @@ const members: Member[] = [
     account: "@ivaxstr",
     pronouns: "She/Her",
     style: "Hip Hop, Contemporary Fusion",
-    nationality: "Bulgaria",
+    nationality: "Bulgarian/Luxembourger",
     bullets: ["feta", "multicolour salt", "banitsa"],
     image: "/images/members/iva.jpg",
   },
