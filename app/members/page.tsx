@@ -137,19 +137,20 @@ const members: Member[] = [
   },
   
 ];
-
-
 export default function MembersPage() {
   return (
     <main className="min-h-screen bg-[#efefef] text-slate-900">
       <TopNav />
 
       <section className="mx-auto max-w-7xl px-6 py-12 md:px-10">
-        <h1 className={`text-center text-3xl font-normal tracking-tight text-black md:text-4xl ${youngSerif.className}`}>
+        <h1
+          className={`text-center text-3xl font-normal tracking-tight text-black md:text-4xl ${youngSerif.className}`}
+        >
           MEMBERS
         </h1>
 
-        <div className="mt-14 grid gap-x-14 gap-y-14 md:grid-cols-2">
+        {/* ✅ added items-stretch */}
+        <div className="mt-14 grid gap-x-14 gap-y-14 md:grid-cols-2 items-stretch">
           {members.map((m) => (
             <MemberCard key={m.name} m={m} />
           ))}
@@ -164,9 +165,14 @@ export default function MembersPage() {
 
 function MemberCard({ m }: { m: Member }) {
   return (
-    <article className="rounded-[16px] bg-[#956297] px-6 py-6 text-white">
-      <div className="grid grid-cols-[200px_1fr] gap-5">
-        <div className="rounded-[16px] bg-white p-[8px]">
+    /* ✅ added h-full */
+    <article className="h-full rounded-[16px] bg-[#956297] px-6 py-6 text-white">
+      
+      {/* ✅ added h-full */}
+      <div className="grid h-full grid-cols-[200px_1fr] gap-5">
+        
+        {/* ✅ optional: added h-full for consistency */}
+        <div className="rounded-[16px] bg-white p-[8px] h-full">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
             <Image
               src={m.image}
@@ -177,7 +183,8 @@ function MemberCard({ m }: { m: Member }) {
           </div>
         </div>
 
-        <div className="flex min-h-full flex-col">
+        {/* already good */}
+        <div className="flex flex-col h-full">
           <div>
             <h2
               className={`text-[22px] leading-tight md:text-[24px] ${youngSerif.className}`}
@@ -204,6 +211,7 @@ function MemberCard({ m }: { m: Member }) {
             </ul>
           </div>
         </div>
+
       </div>
     </article>
   );
