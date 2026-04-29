@@ -71,7 +71,7 @@ const members: Member[] = [
     image: "/images/members/matt.JPG",
   },
   {
-    name: "Jae Namyslak/Yoana Namislova",
+    name: "Jae Namyslak", /*Yoana Namislova*/
     account: "@jaenamyslak",
     pronouns: "She/Her",
     style: "Afro / Commercial / Hip Hop",
