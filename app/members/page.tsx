@@ -18,7 +18,7 @@ type Member = {
 
 const members: Member[] = [
   {
-    name: "Stefani Aleksandrova Chertsova",
+    name: "Stefani Chertsova",
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "Contemporary/Jazz Funk",
