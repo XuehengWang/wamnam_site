@@ -79,7 +79,7 @@ const members: Member[] = [
     bullets: [
       "Self / Professionally trained\ndancer of 10+ years",
       "Professional choreographer\nand dance teacher",
-      "Additional 5+ years of experience in stage performance - solo & groups",
+      "Additional 5+ years of experience in stage\nperformance - solo & groups",
     ],
     image: "/images/members/jae.jpg",
   },
