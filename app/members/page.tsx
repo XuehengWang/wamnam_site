@@ -74,10 +74,10 @@ const members: Member[] = [
     name: "Jowita Namyslak (Jae)", /*Yoana Namislova*/
     account: "@jaenamyslak",
     pronouns: "She/Her",
-    style: "Afro / Commercial / Hip Hop",
+    style: "Afro/Commercial/Hip Hop",
     nationality: "Polish",
     bullets: [
-      "Self / Professionally trained dancer of 10+ years",
+      "Self/Professionally trained dancer of 10+ years",
       "Professional choreographer and dance teacher",
       "Additional 5+ years of experience in stage performance - solo & groups",
     ],
