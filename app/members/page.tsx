@@ -185,18 +185,18 @@ function MemberCard({ m }: { m: Member }) {
       <div className="grid grid-cols-1 md:grid-cols-[220px_1fr] items-start gap-6">
 
         {/* IMAGE */}
-        <div className="flex justify-center md:block">
-          <div className="rounded-[16px] bg-white p-[8px] w-[180px] md:w-full">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
-              <Image
-                src={m.image}
-                alt={m.name}
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
+        <div className="flex justify-center">
+  <div className="rounded-[16px] bg-white p-[8px] w-full max-w-[180px]">
+    <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
+      <Image
+        src={m.image}
+        alt={m.name}
+        fill
+        className="object-cover"
+      />
+    </div>
+  </div>
+</div>
 
         {/* TEXT */}
         <div>
