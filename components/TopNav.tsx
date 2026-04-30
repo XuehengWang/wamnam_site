@@ -4,33 +4,28 @@ import { youngSerif } from "@/lib/fonts";
 
 export default function TopNav() {
   return (
-    // <header className="bg-pink-200/90">
     <header className="sticky top-0 z-50 bg-pink-200/90">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
-        <a href="/" className="block">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
+        
+        {/* Logo */}
+        <Link href="/" className="block">
           <Image
             src="/images/logo1.png"
             alt="WAMNAM"
             width={60}
             height={40}
           />
-        </a>
+        </Link>
 
-        {/* <nav className={`hidden items-center gap-10 text-sm font-medium md:flex ${youngSerif.className}`}>
-          <Link className="opacity-80 hover:opacity-100" href="/portfolio">
-            Portfolio
-          </Link>
-          <Link className="opacity-80 hover:opacity-100" href="/members">
-            Members
-          </Link>
-        </nav>  */}
+        {/* Desktop Navigation */}
         <nav
-          className={`hidden items-center gap-6 text-sm md:flex ${youngSerif.className}`}
+          className={`hidden md:flex items-center gap-6 text-sm ${youngSerif.className}`}
         >
+          {/* Portfolio Dropdown */}
           <div className="group relative">
             <Link
-              className="opacity-80 hover:opacity-100"
               href="/portfolio"
+              className="opacity-80 hover:opacity-100"
             >
               Portfolio
             </Link>
@@ -66,22 +61,35 @@ export default function TopNav() {
             </div>
           </div>
 
-          <Link className="opacity-80 hover:opacity-100" href="/members">
+          <Link
+            href="/members"
+            className="opacity-80 hover:opacity-100"
+          >
             Members
           </Link>
 
-           <Link className="opacity-80 hover:opacity-100" href="/about">
+          <Link
+            href="/about"
+            className="opacity-80 hover:opacity-100"
+          >
             About Us
           </Link>
         </nav>
-        
+
+        {/* Mobile Navigation */}
+        <nav className="flex items-center gap-4 text-sm md:hidden">
+          <Link href="/portfolio" className="opacity-80">
+            Portfolio
+          </Link>
+          <Link href="/members" className="opacity-80">
+            Members
+          </Link>
+          <Link href="/about" className="opacity-80">
+            About
+          </Link>
+        </nav>
+
       </div>
     </header>
   );
 }
-
-      
-        
-
-        
-      
