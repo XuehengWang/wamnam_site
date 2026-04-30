@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description: "WAMNAM website",
 
   icons: {
-    icon: "/favicon.ico",
-    apple: "/images/home_page_photo.jpg",
+    icon: "/images/logo_with_white_background.jpg",
+    apple: "/images/logo_with_white_background.jpg",
   },
 
   openGraph: {
