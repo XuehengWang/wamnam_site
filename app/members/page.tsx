@@ -45,17 +45,17 @@ const members: Member[] = [
     name: "Georgia Green",/*Georgia Maeva Zelenova*/
     account: "@ggia.gg",
     pronouns: "She / Her",
-    style: "Contemporary / Commercial",
+    style: "Contemporary / Commercial Jazz Funk",
     nationality: "Scottish",
-    bullets: ["Professional vocational training in Contemporary, Ballet and Jazz. With 2+ years training experience in Hip Hop",
-              "Experienced choreographer with professional credits alongside international music producers.",
+    bullets: ["Professional vocational training in Contemporary, Ballet and Jazz",
+              "Choreographer with professional credits alongside international music producers.",
               "BA (Hons) in Dance and Drama (1st Class)"],
     image: "/images/members/ggia.JPG",
   },
   {
     name: "Max Evans",/*Maks Ivanov*/
     account: "@maxev_",
-    pronouns: "he/him",
+    pronouns: "He / Him",
     style: "Hip-hop / Commercial / Contemporary",
     nationality: "British",
     bullets: [
@@ -89,7 +89,7 @@ const members: Member[] = [
   {
     name: "Jowita Namyslak (Jae)", /*Yoana Namislova*/
     account: "@jaenamyslak",
-    pronouns: "She/Her",
+    pronouns: "She / Her",
     style: "Afro / Commercial / Hip Hop",
     nationality: "Polish",
     bullets: [
