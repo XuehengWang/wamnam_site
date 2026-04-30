@@ -53,6 +53,18 @@ const members: Member[] = [
     image: "/images/members/ggia.JPG",
   },
   {
+    name: "Max Evans",/*Maks Ivanov*/
+    account: "@maxev_",
+    pronouns: "He / Him",
+    style: "Hip-hop / Commercial / Contemporary",
+    nationality: "British",
+    bullets: [
+      "Trained as a Contemporary dancer",
+      "Professional Choreographer\nand Dance teacher",
+      "Videographer and Video Editor"],
+    image: "/images/members/max.jpg",
+  },
+  {
     name: "Iva Stratieva",
     account: "@ivaxstr",
     pronouns: "She/Her",
