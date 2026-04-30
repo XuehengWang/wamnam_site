@@ -36,8 +36,8 @@ const members: Member[] = [
     nationality: "Bulgarian",
     bullets: [
       "Leader/founder of WAMNAM",
-      "Classically trained dancer with\n10+ years’ experience",
       "Professional dance teacher\nand choreographer",
+      "Classically trained dancer with\nBA (Hons) Dance & Choreography",
     ],
     image: "/images/members/stef.JPG",
   },
@@ -60,7 +60,7 @@ const members: Member[] = [
     nationality: "British",
     bullets: [
       "Trained as a Contemporary dancer",
-      "Professional Choreographer and Dance teacher",
+      "Professional Choreographer\nand Dance teacher",
       "Videographer and Video Editor"],
     image: "/images/members/max.jpg",
   },
