@@ -1,10 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 import TopNav from "@/components/TopNav";
 import SiteFooter from "@/components/SiteFooter";
 import { youngSerif } from "@/lib/fonts";
+
+export const metadata = {
+  openGraph: {
+    images: ["/images/home_page_photo.jpg"],
+  },
+};
 
 type Member = {
   name: string;
