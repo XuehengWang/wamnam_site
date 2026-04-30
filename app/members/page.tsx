@@ -24,7 +24,7 @@ type Member = {
   style: string;
   nationality: string;
   bullets: string[];
-  image: string; // put images in /public/images/members/...
+  image: string;
 };
 
 const members: Member[] = [
@@ -36,45 +36,48 @@ const members: Member[] = [
     nationality: "Bulgarian",
     bullets: [
       "Leader/founder of WAMNAM",
-      "Classically trained dancer with\nBA (Hons) in Dance & Choreography",
+      "Classically trained dancer with BA (Hons) in Dance & Choreography",
       "Professional dance teacher and choreographer with 20+ years experience",
     ],
     image: "/images/members/stef.JPG",
   },
   {
-    name: "Georgia Green (Ggia) ",/*Georgia Maeva Zelenova*/
+    name: "Georgia Green (Ggia)",
     account: "@ggia.gg",
     pronouns: "She / Her",
     style: "Contemporary / Commercial Jazz Funk",
     nationality: "Scottish",
-    bullets: ["Professional vocational training in Contemporary, Ballet and Jazz",
-              "Choreographer with professional credits alongside international music producers.",
-              "BA (Hons) in Dance and Drama (1st Class)"],
+    bullets: [
+      "Professional vocational training in Contemporary, Ballet and Jazz",
+      "Choreographer with professional credits alongside international music producers.",
+      "BA (Hons) in Dance and Drama (1st Class)",
+    ],
     image: "/images/members/ggia.JPG",
   },
   {
-    name: "Max Evans",/*Maks Ivanov*/
+    name: "Max Evans",
     account: "@maxev_",
     pronouns: "He / Him",
     style: "Hip-hop / Commercial / Contemporary",
     nationality: "British",
     bullets: [
       "Trained as a Contemporary dancer",
-      "Professional Choreographer\nand Dance teacher",
-      "Videographer and Video Editor"],
+      "Professional Choreographer and Dance teacher",
+      "Videographer and Video Editor",
+    ],
     image: "/images/members/max.jpg",
   },
   {
     name: "Iva Stratieva",
     account: "@ivaxstr",
-    pronouns: "She/Her",
-    style: "Hip Hop, Contemporary Fusion",
-    nationality: "Bulgarian/Luxembourger",
+    pronouns: "She / Her",
+    style: "Hip Hop / Contemporary Fusion",
+    nationality: "Bulgarian / Luxembourger",
     bullets: ["feta", "multicolour salt", "banitsa"],
     image: "/images/members/iva.jpg",
   },
   {
-    name: "Matteo Putura",/*Matei Putrov*/
+    name: "Matteo Putura",
     account: "@matt.put",
     pronouns: "They / Them",
     style: "Hip-hop",
@@ -82,91 +85,52 @@ const members: Member[] = [
     bullets: [
       "5+ years of hip-hop dance experience",
       "Dance teacher and choreographer",
-      "Enyoy your food",
+      "Enjoy your food",
     ],
     image: "/images/members/matt.JPG",
   },
   {
-    name: "Jowita Namyslak (Jae)", /*Yoana Namislova*/
+    name: "Jowita Namyslak (Jae)",
     account: "@jaenamyslak",
     pronouns: "She / Her",
     style: "Afro / Commercial / Hip-hop",
     nationality: "Polish",
     bullets: [
-      "Self / Professionally\ntrained dancer of 10+ years",
-      "Professional choreographer\nand dance teacher",
-      "Additional 5+ years of experience\nin stage performance - solo & groups",
+      "Self / professionally trained dancer of 10+ years",
+      "Professional choreographer and dance teacher",
+      "Additional 5+ years of stage performance experience",
     ],
     image: "/images/members/jae.jpg",
   },
   {
-    name: "Zoë Hooper",/*Zornitsa Obruchova*/
+    name: "Zoë Hooper",
     account: "@zoe_danceartist",
     pronouns: "She / Her",
     style: "Contemporary / Pole dance",
     nationality: "Malaysian Chinese",
     bullets: [
-      "Classically trained in Ballet,\nContemporary and Jazz",
-      "Multidisciplinary dance artist, choreographer and dance facilitator",
+      "Classically trained in Ballet, Contemporary and Jazz",
+      "Multidisciplinary dance artist and choreographer",
       "BA Dance and Drama (1st)",
     ],
     image: "/images/members/zoe.jpg",
   },
-  {
-    name: "Alex Myers",/*Aleksandrova Mircheva*/
-    account: "@chertsova.dance",
-    pronouns: "She/Her",
-    style: "this girlie does everything",
-    nationality: "Bulgaria",
-    bullets: [
-      "Leader/founder of WAMNAM",
-      "Classically trained dancer with 10+ years’ experience",
-      "stress stress stress",
-    ],
-    image: "/images/members/alex.JPG",
-  },
-  {
-    name: "Caitlin Charters",/*Katerina Cherneva*/
-    account: "@chertsova.dance",
-    pronouns: "She/Her",
-    style: "this girlie does everything",
-    nationality: "Bulgaria",
-    bullets: [
-      "Leader/founder of WAMNAM",
-      "Classically trained dancer with 10+ years’ experience",
-      "stress stress stress",
-    ],
-    image: "/images/members/caitlin.jpg",
-  },
-  {
-    name: "Wayne Chang",/*Ivan (Vanko) Chanev*/
-    account: "@stickman",
-    pronouns: "",
-    style: "",
-    nationality: "",
-    bullets: [
-      "1",
-      "2",
-      "3",
-    ],
-    image: "/images/members/stef.JPG",
-  },
-  
 ];
+
 export default function MembersPage() {
   return (
     <main className="min-h-screen bg-[#efefef] text-slate-900">
       <TopNav />
 
-      <section className="mx-auto max-w-7xl px-6 py-12 md:px-10">
+      <section className="mx-auto max-w-6xl px-6 py-12">
         <h1
-          className={`text-center text-3xl font-normal tracking-tight text-black md:text-4xl ${youngSerif.className}`}
+          className={`text-center text-3xl md:text-4xl tracking-tight text-black ${youngSerif.className}`}
         >
           MEMBERS
         </h1>
 
-        {/* ✅ added items-stretch */}
-        <div className="mt-10 grid grid-cols-1 gap-6 md:mt-14 md:grid-cols-2 md:gap-12">
+        {/* responsive grid */}
+        <div className="mt-10 grid gap-8 md:grid-cols-2 md:gap-12">
           {members.map((m) => (
             <MemberCard key={m.name} m={m} />
           ))}
@@ -178,16 +142,15 @@ export default function MembersPage() {
   );
 }
 
-
 function MemberCard({ m }: { m: Member }) {
   return (
-    <article className="mx-auto w-full max-w-[420px] rounded-[16px] bg-[#956297] px-4 py-4 text-white md:max-w-none md:px-6 md:py-6">
+    <article className="w-full rounded-[16px] bg-[#956297] px-3 py-3 md:px-6 md:py-6 text-white transition hover:scale-[1.01]">
       
-      {/* MOBILE = stacked | DESKTOP = side by side */}
-      <div className="flex flex-col gap-4 md:grid md:grid-cols-[200px_1fr] md:gap-5">
+      {/* ALWAYS horizontal */}
+      <div className="flex gap-4 md:gap-5">
         
         {/* Image */}
-        <div className="mx-auto w-full max-w-[220px] md:mx-0 md:max-w-none rounded-[16px] bg-white p-[6px] md:p-[8px]">
+        <div className="w-[110px] md:w-[200px] shrink-0 rounded-[16px] bg-white p-[6px] md:p-[8px]">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
             <Image
               src={m.image}
@@ -199,33 +162,31 @@ function MemberCard({ m }: { m: Member }) {
         </div>
 
         {/* Text */}
-        <div className="text-center md:text-left">
-          
+        <div>
           <h2
-            className={`text-[18px] leading-tight md:text-[24px] ${youngSerif.className}`}
+            className={`text-[16px] md:text-[24px] leading-tight ${youngSerif.className}`}
           >
             {m.name}
           </h2>
 
           <div
-            className={`mt-1 text-[13px] md:text-[15px] leading-none text-white/95 ${youngSerif.className}`}
+            className={`mt-1 text-[13px] md:text-[15px] text-white/95 ${youngSerif.className}`}
           >
             {m.account}
           </div>
 
-          <div className="mt-4 space-y-[2px] text-[12px] md:text-[14px] leading-[1.25] text-white/95">
+          <div className="mt-3 text-[12px] md:text-[14px] text-white/95 leading-[1.25]">
             <div>Pronouns: {m.pronouns || "—"}</div>
             <div>Style: {m.style || "—"}</div>
             <div>Nationality: {m.nationality || "—"}</div>
           </div>
 
-          <ul className="mt-4 list-disc space-y-1 pl-5 text-[12px] md:text-[14px] leading-[1.35] text-white/95 text-left">
+          <ul className="mt-3 list-disc pl-5 text-[12px] md:text-[14px] leading-[1.35] text-white/95">
             {m.bullets.map((b, i) => (
               <li key={i}>{b}</li>
             ))}
           </ul>
         </div>
-
       </div>
     </article>
   );
