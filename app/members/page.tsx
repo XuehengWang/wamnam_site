@@ -37,7 +37,7 @@ const members: Member[] = [
     bullets: [
       "Leader/founder of WAMNAM",
       "Professional dance teacher\nand choreographer",
-      "Classically trained dancer with\nBA (Hons) Dance & Choreography",
+      "Classically trained dancer with\nBA (Hons) in Dance & Choreography",
     ],
     image: "/images/members/stef.JPG",
   },
