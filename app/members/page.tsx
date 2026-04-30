@@ -5,7 +5,7 @@ import TopNav from "@/components/TopNav";
 import SiteFooter from "@/components/SiteFooter";
 import { youngSerif } from "@/lib/fonts";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "WAMNAM",
 
   icons: {
