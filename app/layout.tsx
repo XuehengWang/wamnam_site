@@ -23,7 +23,13 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "WAMNAM",
-    images: ["/images/home_page_photo.jpg"],
+    images: [
+      {
+        url: "/images/home_page_photo.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
