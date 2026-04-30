@@ -98,10 +98,10 @@ const members: Member[] = [
     name: "Zoë Hooper",/*Zornitsa Obruchova*/
     account: "@zoe_danceartist",
     pronouns: "she/her",
-    style: "Contemporary/ Commercial/ Pole dance (genre fusion)",
+    style: "Contemporary/Commercial/\nPole dance(genre fusion)",
     nationality: "Malaysian Chinese",
     bullets: [
-      "Classically trained in Ballet, Contemporary and Jazz",
+      "Classically trained in Ballet,\nContemporary and Jazz",
       "Multidisciplinary dance artist, choreographer and dance facilitator",
       "BA Dance and Drama (1st)",
     ],
