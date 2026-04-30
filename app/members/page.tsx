@@ -31,7 +31,7 @@ const members: Member[] = [
   {
     name: "Stefani Chertsova",
     account: "@chertsova.dance",
-    pronouns: "She/Her",
+    pronouns: "She / Her",
     style: "Contemporary / Jazz Funk",
     nationality: "Bulgarian",
     bullets: [
@@ -44,10 +44,12 @@ const members: Member[] = [
   {
     name: "Georgia Green",/*Georgia Maeva Zelenova*/
     account: "@ggia.gg",
-    pronouns: "She/Her",
-    style: "ort cloud",
-    nationality: "scooooootish",
-    bullets: ["1", "2", "3"],
+    pronouns: "She / Her",
+    style: "Contemporary / Physical Theatre / Commercial Jazz Funk",
+    nationality: "Scottish",
+    bullets: ["Professional vocational training in Contemporary, Ballet and Jazz. With 2+ years training experience in Hip Hop",
+              "Experienced choreographer with professional credits alongside international music producers.",
+              "BA (Hons) in Dance and Drama (1st Class)"],
     image: "/images/members/ggia.JPG",
   },
   {
@@ -97,7 +99,7 @@ const members: Member[] = [
   {
     name: "Zoë Hooper",/*Zornitsa Obruchova*/
     account: "@zoe_danceartist",
-    pronouns: "she/her",
+    pronouns: "She / Her",
     style: "Contemporary / Commercial /\nPole dance(genre fusion)",
     nationality: "Malaysian Chinese",
     bullets: [
