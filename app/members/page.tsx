@@ -32,7 +32,7 @@ const members: Member[] = [
     name: "Stefani Chertsova",
     account: "@chertsova.dance",
     pronouns: "She/Her",
-    style: "Contemporary/Jazz Funk",
+    style: "Contemporary / Jazz Funk",
     nationality: "Bulgarian",
     bullets: [
       "Leader/founder of WAMNAM",
@@ -98,7 +98,7 @@ const members: Member[] = [
     name: "Zoë Hooper",/*Zornitsa Obruchova*/
     account: "@zoe_danceartist",
     pronouns: "she/her",
-    style: "Contemporary/Commercial/\nPole dance(genre fusion)",
+    style: "Contemporary / Commercial /\nPole dance(genre fusion)",
     nationality: "Malaysian Chinese",
     bullets: [
       "Classically trained in Ballet,\nContemporary and Jazz",
