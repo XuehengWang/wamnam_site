@@ -42,7 +42,7 @@ const members: Member[] = [
     image: "/images/members/stef.JPG",
   },
   {
-    name: "Georgia Green",/*Georgia Maeva Zelenova*/
+    name: "Georgia Green (Ggia) ",/*Georgia Maeva Zelenova*/
     account: "@ggia.gg",
     pronouns: "She / Her",
     style: "Contemporary / Commercial Jazz Funk",
@@ -76,13 +76,13 @@ const members: Member[] = [
   {
     name: "Matteo Putura",/*Matei Putrov*/
     account: "@matt.put",
-    pronouns: "She/Her",
-    style: "this girlie does everything",
-    nationality: "Bulgaria",
+    pronouns: "They / Them",
+    style: "Hip-hop",
+    nationality: "Indonesian",
     bullets: [
-      "Leader/founder of WAMNAM",
-      "Classically trained dancer with 10+ years’ experience",
-      "stress stress stress",
+      "5+ years of hip-hop dance experience",
+      "Dance teacher and choreographer",
+      "Enyoy your food",
     ],
     image: "/images/members/matt.JPG",
   },
@@ -90,7 +90,7 @@ const members: Member[] = [
     name: "Jowita Namyslak (Jae)", /*Yoana Namislova*/
     account: "@jaenamyslak",
     pronouns: "She / Her",
-    style: "Afro / Commercial / Hip Hop",
+    style: "Afro / Commercial / Hip-hop",
     nationality: "Polish",
     bullets: [
       "Self / Professionally\ntrained dancer of 10+ years",
