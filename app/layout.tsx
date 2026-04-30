@@ -16,25 +16,32 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "WAMNAM",
   description: "WAMNAM website",
-};
-
-export const metadata: Metadata = {
-  title: "WAMNAM",
-  description: "WAMNAM website",
 
   icons: {
+    icon: "/favicon.ico",
     apple: "/images/home_page_photo.jpg",
   },
 
   openGraph: {
     title: "WAMNAM",
     description: "WAMNAM website",
-    images: [
-      {
-        url: "/images/home_page_photo.jpg",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    images: ["/images/home_page_photo.jpg"],
   },
 };
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html
+      lang="en"
+      className={`${inter.variable} ${youngSerif.variable} ${geistMono.variable}`}
+    >
+      <body className={`${inter.className} antialiased`}>
+        {children}
+      </body>
+    </html>
+  );
+}
