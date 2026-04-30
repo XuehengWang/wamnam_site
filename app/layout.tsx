@@ -18,21 +18,23 @@ export const metadata: Metadata = {
   description: "WAMNAM website",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    // This 3 fonts are globally available, but the default is inter
-    <html
-      lang="en"
-      className={`${inter.variable} ${youngSerif.variable} ${geistMono.variable}`}
-    >
-      <body className={`${inter.className} antialiased`}>
-        {children}
-      </body>
-       
-    </html>
-  );
-}
+export const metadata: Metadata = {
+  title: "WAMNAM",
+  description: "WAMNAM website",
+
+  icons: {
+    apple: "/images/home_page_photo.jpg",
+  },
+
+  openGraph: {
+    title: "WAMNAM",
+    description: "WAMNAM website",
+    images: [
+      {
+        url: "/images/home_page_photo.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+};
