@@ -4,7 +4,7 @@ import { youngSerif } from "@/lib/fonts";
 
 export default function TopNav() {
   return (
-    <header className="sticky top-0 z-50 bg-pink-200/90">
+    <header className={`sticky top-0 z-50 bg-pink-200/90 ${youngSerif.className}`}>
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
         
         {/* Logo */}
@@ -18,9 +18,8 @@ export default function TopNav() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav
-          className={`hidden md:flex items-center gap-6 text-sm ${youngSerif.className}`}
-        >
+        <nav className="hidden md:flex items-center gap-6 text-sm">
+          
           {/* Portfolio Dropdown */}
           <div className="group relative">
             <Link
@@ -61,17 +60,11 @@ export default function TopNav() {
             </div>
           </div>
 
-          <Link
-            href="/members"
-            className="opacity-80 hover:opacity-100"
-          >
+          <Link href="/members" className="opacity-80 hover:opacity-100">
             Members
           </Link>
 
-          <Link
-            href="/about"
-            className="opacity-80 hover:opacity-100"
-          >
+          <Link href="/about" className="opacity-80 hover:opacity-100">
             About Us
           </Link>
         </nav>
