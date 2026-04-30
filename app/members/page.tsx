@@ -166,7 +166,7 @@ export default function MembersPage() {
         </h1>
 
         {/* ✅ added items-stretch */}
-        <div className="mt-14 grid gap-x-14 gap-y-14 md:grid-cols-2 items-stretch">
+        <div className="mt-10 grid grid-cols-1 gap-6 md:mt-14 md:grid-cols-2 md:gap-12">
           {members.map((m) => (
             <MemberCard key={m.name} m={m} />
           ))}
@@ -181,11 +181,13 @@ export default function MembersPage() {
 
 function MemberCard({ m }: { m: Member }) {
   return (
-    <article className="rounded-[16px] bg-[#956297] px-6 py-6 text-white">
+    <article className="mx-auto w-full max-w-[420px] rounded-[16px] bg-[#956297] px-4 py-4 text-white md:max-w-none md:px-6 md:py-6">
       
-      <div className="grid grid-cols-[200px_1fr] items-start gap-5">
+      {/* MOBILE = stacked | DESKTOP = side by side */}
+      <div className="flex flex-col gap-4 md:grid md:grid-cols-[200px_1fr] md:gap-5">
         
-        <div className="rounded-[16px] bg-white p-[8px]">
+        {/* Image */}
+        <div className="mx-auto w-full max-w-[220px] md:mx-0 md:max-w-none rounded-[16px] bg-white p-[6px] md:p-[8px]">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
             <Image
               src={m.image}
@@ -196,26 +198,28 @@ function MemberCard({ m }: { m: Member }) {
           </div>
         </div>
 
-        <div>
+        {/* Text */}
+        <div className="text-center md:text-left">
+          
           <h2
-            className={`text-[22px] leading-tight md:text-[24px] ${youngSerif.className}`}
+            className={`text-[18px] leading-tight md:text-[24px] ${youngSerif.className}`}
           >
             {m.name}
           </h2>
 
           <div
-            className={`mt-1 text-[15px] leading-none text-white/95 ${youngSerif.className}`}
+            className={`mt-1 text-[13px] md:text-[15px] leading-none text-white/95 ${youngSerif.className}`}
           >
             {m.account}
           </div>
 
-          <div className="mt-5 space-y-[2px] text-[14px] leading-[1.25] text-white/95">
+          <div className="mt-4 space-y-[2px] text-[12px] md:text-[14px] leading-[1.25] text-white/95">
             <div>Pronouns: {m.pronouns || "—"}</div>
             <div>Style: {m.style || "—"}</div>
             <div>Nationality: {m.nationality || "—"}</div>
           </div>
 
-          <ul className="mt-5 list-disc space-y-1 pl-5 text-[14px] leading-[1.35] text-white/95">
+          <ul className="mt-4 list-disc space-y-1 pl-5 text-[12px] md:text-[14px] leading-[1.35] text-white/95 text-left">
             {m.bullets.map((b, i) => (
               <li key={i}>{b}</li>
             ))}
