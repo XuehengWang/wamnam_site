@@ -153,23 +153,44 @@ const members: Member[] = [
   },
   
 ];
+export default function MembersPage() {
+  return (
+    <main className="min-h-screen bg-[#efefef] text-slate-900">
+      <TopNav />
+
+      <section className="mx-auto max-w-7xl px-6 py-12 md:px-10">
+        <h1
+          className={`text-center text-3xl font-normal tracking-tight text-black md:text-4xl ${youngSerif.className}`}
+        >
+          MEMBERS
+        </h1>
+
+        <div className="mt-14 grid gap-x-14 gap-y-14 md:grid-cols-2">
+          {members.map((m) => (
+            <MemberCard key={m.name} m={m} />
+          ))}
+        </div>
+      </section>
+
+      <SiteFooter />
+    </main>
+  );
+}
+
 function MemberCard({ m }: { m: Member }) {
   return (
     <article className="rounded-[16px] bg-[#956297] px-6 py-6 text-white">
-
       <div className="grid grid-cols-[200px_1fr] items-start gap-5">
 
         {/* IMAGE */}
-        <div className="flex justify-center">
-          <div className="rounded-[16px] bg-white p-[8px] w-full max-w-[180px]">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
-              <Image
-                src={m.image}
-                alt={m.name}
-                fill
-                className="object-cover"
-              />
-            </div>
+        <div className="rounded-[16px] bg-white p-[8px] w-full">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
+            <Image
+              src={m.image}
+              alt={m.name}
+              fill
+              className="object-cover"
+            />
           </div>
         </div>
 
