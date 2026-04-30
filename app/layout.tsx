@@ -18,9 +18,11 @@ export const metadata: Metadata = {
 
   icons: {
     icon: "/icon.png",
+    apple: "/icon.png",
   },
 
   openGraph: {
+    title: "WAMNAM",
     images: ["/images/home_page_photo.jpg"],
   },
 };
