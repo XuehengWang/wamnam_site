@@ -42,7 +42,7 @@ const members: Member[] = [
     image: "/images/members/stef.JPG",
   },
   {
-    name: "Georgia Green/Georgia Maeva Zelenova",
+    name: "Georgia Green",/*Georgia Maeva Zelenova*/
     account: "@ggia.gg",
     pronouns: "She/Her",
     style: "ort cloud",
@@ -51,7 +51,7 @@ const members: Member[] = [
     image: "/images/members/ggia.JPG",
   },
   {
-    name: "Max Evans/Maks Ivanov",
+    name: "Max Evans",/*Maks Ivanov*/
     account: "@maxev_",
     pronouns: "He/Him",
     style: "england",
@@ -69,7 +69,7 @@ const members: Member[] = [
     image: "/images/members/iva.jpg",
   },
   {
-    name: "Matteo Putura/Matei Putrov",
+    name: "Matteo Putura",/*Matei Putrov*/
     account: "@matt.put",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -108,7 +108,7 @@ const members: Member[] = [
     image: "/images/members/zoe.jpg",
   },
   {
-    name: "Alex Myers/Aleksandrova Mircheva",
+    name: "Alex Myers",/*Aleksandrova Mircheva*/
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -121,7 +121,7 @@ const members: Member[] = [
     image: "/images/members/alex.JPG",
   },
   {
-    name: "Caitlin Charters/Katerina Cherneva",
+    name: "Caitlin Charters",/*Katerina Cherneva*/
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -134,7 +134,7 @@ const members: Member[] = [
     image: "/images/members/caitlin.jpg",
   },
   {
-    name: "Wayne Chang/Ivan (Vanko) Chanev",
+    name: "Wayne Chang",/*Ivan (Vanko) Chanev*/
     account: "@stickman",
     pronouns: "",
     style: "",
