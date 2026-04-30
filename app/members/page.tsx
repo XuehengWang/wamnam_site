@@ -36,8 +36,8 @@ const members: Member[] = [
     nationality: "Bulgarian",
     bullets: [
       "Leader/founder of WAMNAM",
-      "Professional dance teacher\nand choreographer",
       "Classically trained dancer with\nBA (Hons) in Dance & Choreography",
+      "Professional dance teacher and choreographer with 20+ years experience",
     ],
     image: "/images/members/stef.JPG",
   },
@@ -51,18 +51,6 @@ const members: Member[] = [
               "Choreographer with professional credits alongside international music producers.",
               "BA (Hons) in Dance and Drama (1st Class)"],
     image: "/images/members/ggia.JPG",
-  },
-  {
-    name: "Max Evans",/*Maks Ivanov*/
-    account: "@maxev_",
-    pronouns: "He / Him",
-    style: "Hip-hop / Commercial / Contemporary",
-    nationality: "British",
-    bullets: [
-      "Trained as a Contemporary dancer",
-      "Professional Choreographer\nand Dance teacher",
-      "Videographer and Video Editor"],
-    image: "/images/members/max.jpg",
   },
   {
     name: "Iva Stratieva",
