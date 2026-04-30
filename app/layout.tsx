@@ -13,16 +13,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+eexport const metadata: Metadata = {
   title: "WAMNAM",
 
   icons: {
     icon: "/icon.png",
-    apple: "/icon.png",
   },
 
   openGraph: {
-    title: "WAMNAM",
     images: ["/images/home_page_photo.jpg"],
   },
 };
