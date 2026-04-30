@@ -95,15 +95,15 @@ const members: Member[] = [
     image: "/images/members/jae.jpg",
   },
   {
-    name: "Zoë Hooper/Zornitsa Obruchova",
-    account: "@chertsova.dance",
-    pronouns: "She/Her",
-    style: "this girlie does everything",
-    nationality: "Bulgaria",
+    name: "Zoë Hooper",/*Zornitsa Obruchova*/
+    account: "@zoe_danceartist",
+    pronouns: "she/her",
+    style: "Contemporary/ Commercial/ Pole dance (genre fusion)",
+    nationality: "Malaysian Chinese",
     bullets: [
-      "Leader/founder of WAMNAM",
-      "Classically trained dancer with 10+ years’ experience",
-      "stress stress stress",
+      "Classically trained in Ballet, Contemporary and Jazz",
+      "Multidisciplinary dance artist, choreographer and dance facilitator",
+      "BA Dance and Drama (1st)",
     ],
     image: "/images/members/zoe.jpg",
   },
