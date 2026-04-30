@@ -5,8 +5,17 @@ import TopNav from "@/components/TopNav";
 import SiteFooter from "@/components/SiteFooter";
 import { youngSerif } from "@/lib/fonts";
 
-export const metadata = {
+export const metadata: Metadata = {
+  title: "WAMNAM",
+
+  icons: {
+    icon: "/images/logo_with_white_background.jpg",
+    apple: "/images/logo_with_white_background.jpg",
+  },
+
   openGraph: {
+    title: "WAMNAM",
+    description: "WAMNAM website",
     images: ["/images/home_page_photo.jpg"],
   },
 };
