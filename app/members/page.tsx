@@ -186,15 +186,14 @@ function MemberCard({ m }: { m: Member }) {
 
         {/* IMAGE */}
         <div className="flex justify-center">
-  <div className="rounded-[16px] bg-white p-[8px] w-full max-w-[180px]">
-    <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
-      <Image
-        src={m.image}
-        alt={m.name}
-        fill
-        className="object-cover"
-      />
-    </div>
+  <div className="rounded-[16px] bg-white p-[8px] mx-auto">
+  <div className="relative aspect-[4/5] overflow-hidden rounded-[12px] bg-[#e8d4c6]">
+    <Image
+      src={m.image}
+      alt={m.name}
+      fill
+      className="object-cover"
+    />
   </div>
 </div>
 
