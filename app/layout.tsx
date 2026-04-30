@@ -17,13 +17,12 @@ export const metadata: Metadata = {
   title: "WAMNAM",
 
   icons: {
-    icon: "/images/logo_with_white_background.jpg",
-    apple: "/images/logo_with_white_background.jpg",
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
 
   openGraph: {
     title: "WAMNAM",
-    description: "WAMNAM website",
     images: ["/images/home_page_photo.jpg"],
   },
 };
