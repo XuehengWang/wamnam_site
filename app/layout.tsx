@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "WAMNAM",
-  description: "WAMNAM website",
 
   icons: {
     icon: "/images/logo_with_white_background.jpg",
