@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-eexport const metadata: Metadata = {
+export const metadata: Metadata = {
   title: "WAMNAM",
 
   icons: {
