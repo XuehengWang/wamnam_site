@@ -45,7 +45,7 @@ const members: Member[] = [
     name: "Georgia Green",/*Georgia Maeva Zelenova*/
     account: "@ggia.gg",
     pronouns: "She / Her",
-    style: "Contemporary / Physical Theatre / Commercial Jazz Funk",
+    style: "Contemporary / Commercial",
     nationality: "Scottish",
     bullets: ["Professional vocational training in Contemporary, Ballet and Jazz. With 2+ years training experience in Hip Hop",
               "Experienced choreographer with professional credits alongside international music producers.",
@@ -55,10 +55,13 @@ const members: Member[] = [
   {
     name: "Max Evans",/*Maks Ivanov*/
     account: "@maxev_",
-    pronouns: "He/Him",
-    style: "england",
-    nationality: "england",
-    bullets: ["bole of waer", "2", "3"],
+    pronouns: "he/him",
+    style: "Hip-hop / Commercial / Contemporary",
+    nationality: "British",
+    bullets: [
+      "Trained as a Contemporary dancer",
+      "Professional Choreographer and Dance teacher",
+      "Videographer and Video Editor"],
     image: "/images/members/max.jpg",
   },
   {
@@ -100,7 +103,7 @@ const members: Member[] = [
     name: "Zoë Hooper",/*Zornitsa Obruchova*/
     account: "@zoe_danceartist",
     pronouns: "She / Her",
-    style: "Contemporary / Commercial /\nPole dance(genre fusion)",
+    style: "Contemporary / Pole dance",
     nationality: "Malaysian Chinese",
     bullets: [
       "Classically trained in Ballet,\nContemporary and Jazz",
