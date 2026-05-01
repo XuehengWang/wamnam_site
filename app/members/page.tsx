@@ -112,8 +112,8 @@ const members: Member[] = [
     ],
     image: "/images/members/zoe.jpg",
   },
-  {
-    name: "Alex Myers",/*Aleksandrova Mircheva*/
+  /*{
+    name: "Alex Myers",Aleksandrova Mircheva
     account: "@chertsova.dance",
     pronouns: "She/Her",
     style: "this girlie does everything",
@@ -124,7 +124,7 @@ const members: Member[] = [
       "stress stress stress",
     ],
     image: "/images/members/alex.JPG",
-  },
+  },*/
   {
     name: "Caitlin Charters",/*Katerina Cherneva*/
     account: "@chertsova.dance",
@@ -149,7 +149,7 @@ const members: Member[] = [
       "2",
       "3",
     ],
-    image: "/images/members/stef.JPG",
+    image: "/images/members/wayne.jpg",
   },
   
 ];
