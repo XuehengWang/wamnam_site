@@ -181,7 +181,7 @@ function MemberCard({ m }: { m: Member }) {
   return (
     <article className="rounded-[16px] bg-[#956297] px-4 py-5 sm:px-6 sm:py-6 text-white">
       
-      <div className="grid grid-cols-[95px_1fr] sm:grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] items-start gap-3 sm:gap-5">
+      <div className="grid grid-cols-[110px_1fr] sm:grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] gap-4 sm:gap-5">
 
         {/* IMAGE */}
         <div className="rounded-[16px] bg-white p-[6px] sm:p-[8px] w-full">
@@ -197,15 +197,11 @@ function MemberCard({ m }: { m: Member }) {
 
         {/* TEXT */}
         <div className="min-w-0">
-          <h2
-            className={`text-[20px] sm:text-[22px] md:text-[24px] leading-tight ${youngSerif.className}`}
-          >
+          <h2 className={`text-[20px] sm:text-[22px] md:text-[24px] leading-tight ${youngSerif.className}`}>
             {m.name}
           </h2>
 
-          <div
-            className={`mt-1 text-[14px] sm:text-[15px] leading-none text-white/95 ${youngSerif.className}`}
-          >
+          <div className={`mt-1 text-[14px] sm:text-[15px] leading-none text-white/95 ${youngSerif.className}`}>
             {m.account}
           </div>
 
@@ -214,13 +210,14 @@ function MemberCard({ m }: { m: Member }) {
             <div>Style: {m.style || "—"}</div>
             <div>Nationality: {m.nationality || "—"}</div>
           </div>
-
-          <ul className="col-span-2 md:col-span-1 mt-4 sm:mt-5 list-disc space-y-1 pl-5 text-[13px] sm:text-[14px] leading-[1.35] text-white/95 whitespace-pre-line">
-  {m.bullets.map((b, i) => (
-    <li key={i}>{b}</li>
-  ))}
-</ul>
         </div>
+
+        {/* BULLETS */}
+        <ul className="col-span-2 md:col-span-1 mt-4 sm:mt-5 list-disc space-y-1 pl-5 text-[13px] sm:text-[14px] leading-[1.35] text-white/95 whitespace-pre-line">
+          {m.bullets.map((b, i) => (
+            <li key={i}>{b}</li>
+          ))}
+        </ul>
 
       </div>
     </article>
