@@ -181,10 +181,10 @@ function MemberCard({ m }: { m: Member }) {
   return (
     <article className="rounded-[16px] bg-[#956297] px-4 py-5 sm:px-6 sm:py-6 text-white">
       
-      <div className="grid grid-cols-[110px_1fr] sm:grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] gap-4 sm:gap-5">
+      <div className="grid grid-cols-[110px_1fr] sm:grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] items-start gap-4 sm:gap-5">
 
         {/* IMAGE */}
-        <div className="rounded-[16px] bg-white p-[6px] sm:p-[8px] w-full">
+        <div className="self-start rounded-[16px] bg-white p-[6px] sm:p-[8px] w-full">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[10px] sm:rounded-[12px] bg-[#e8d4c6]">
             <Image
               src={m.image}
@@ -195,7 +195,7 @@ function MemberCard({ m }: { m: Member }) {
           </div>
         </div>
 
-        {/* TEXT */}
+        {/* TEXT + BULLETS */}
         <div className="min-w-0">
           <h2 className={`text-[20px] sm:text-[22px] md:text-[24px] leading-tight ${youngSerif.className}`}>
             {m.name}
@@ -211,7 +211,7 @@ function MemberCard({ m }: { m: Member }) {
             <div>Nationality: {m.nationality || "—"}</div>
           </div>
 
-          {/* BULLETS (fixed — no more gap) */}
+          {/* BULLETS */}
           <ul className="mt-4 sm:mt-5 list-disc space-y-1 pl-5 text-[13px] sm:text-[14px] leading-[1.35] text-white/95 whitespace-pre-line">
             {m.bullets.map((b, i) => (
               <li key={i}>{b}</li>
