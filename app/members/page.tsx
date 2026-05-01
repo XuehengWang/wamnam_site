@@ -94,8 +94,8 @@ const members: Member[] = [
     nationality: "Polish",
     bullets: [
       "Self / Professionally\ntrained dancer of 10+ years",
-      "Professional choreographer\nand dance teacher",
-      "Additional 5+ years of experience\nin stage performance - solo & groups",
+      "5+ years of stage performance",
+      "Choreographer & teacher in treaining",
     ],
     image: "/images/members/jae.jpg",
   },
