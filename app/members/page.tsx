@@ -53,16 +53,17 @@ const members: Member[] = [
     image: "/images/members/ggia.JPG",
   },
   {
-    name: "Max Evans",/*Maks Ivanov*/
-    account: "@maxev_",
-    pronouns: "He / Him",
-    style: "Hip-hop / Commercial / Contemporary",
+    name: "Caitlin Charters",/*Katerina Cherneva*/
+    account: "@caitlincharters",
+    pronouns: "She / Her",
+    style: "",
     nationality: "British",
     bullets: [
-      "Trained as a Contemporary dancer",
-      "Professional Choreographer\nand Dance teacher",
-      "Videographer and Video Editor"],
-    image: "/images/members/max.jpg",
+      "1",
+      "2",
+      "3",
+    ],
+    image: "/images/members/caitlin.jpg",
   },
   {
     name: "Iva Stratieva",
@@ -74,17 +75,17 @@ const members: Member[] = [
     image: "/images/members/iva.jpg",
   },
   {
-    name: "Matteo Putura",/*Matei Putrov*/
-    account: "@matt.put",
-    pronouns: "They / Them",
-    style: "Hip-hop",
-    nationality: "Indonesian",
+    name: "Zoë Hooper",/*Zornitsa Obruchova*/
+    account: "@zoe_danceartist",
+    pronouns: "She / Her",
+    style: "Contemporary / Pole dance",
+    nationality: "Malaysian Chinese",
     bullets: [
-      "5+ years of hip-hop dance experience",
-      "Dance teacher and choreographer",
-      "Enyoy your food",
+      "Classically trained in Ballet,\nContemporary and Jazz",
+      "Multidisciplinary dance artist, choreographer and dance facilitator",
+      "BA Dance and Drama (1st)",
     ],
-    image: "/images/members/matt.JPG",
+    image: "/images/members/zoe.jpg",
   },
   {
     name: "Jowita Namyslak (Jae)", /*Yoana Namislova*/
@@ -100,17 +101,29 @@ const members: Member[] = [
     image: "/images/members/jae.jpg",
   },
   {
-    name: "Zoë Hooper",/*Zornitsa Obruchova*/
-    account: "@zoe_danceartist",
-    pronouns: "She / Her",
-    style: "Contemporary / Pole dance",
-    nationality: "Malaysian Chinese",
+    name: "Max Evans",/*Maks Ivanov*/
+    account: "@maxev_",
+    pronouns: "He / Him",
+    style: "Hip-hop / Commercial / Contemporary",
+    nationality: "British",
     bullets: [
-      "Classically trained in Ballet,\nContemporary and Jazz",
-      "Multidisciplinary dance artist, choreographer and dance facilitator",
-      "BA Dance and Drama (1st)",
+      "Trained as a Contemporary dancer",
+      "Professional Choreographer\nand Dance teacher",
+      "Videographer and Video Editor"],
+    image: "/images/members/max.jpg",
+  },
+  {
+    name: "Matteo Putura",/*Matei Putrov*/
+    account: "@matt.put",
+    pronouns: "They / Them",
+    style: "Hip-hop",
+    nationality: "Indonesian",
+    bullets: [
+      "5+ years of hip-hop dance experience",
+      "Dance teacher and choreographer",
+      "Enyoy your food",
     ],
-    image: "/images/members/zoe.jpg",
+    image: "/images/members/matt.JPG",
   },
   /*{
     name: "Alex Myers",Aleksandrova Mircheva
@@ -125,19 +138,6 @@ const members: Member[] = [
     ],
     image: "/images/members/alex.JPG",
   },*/
-  {
-    name: "Caitlin Charters",/*Katerina Cherneva*/
-    account: "@caitlincharters",
-    pronouns: "She / Her",
-    style: "",
-    nationality: "British",
-    bullets: [
-      "1",
-      "2",
-      "3",
-    ],
-    image: "/images/members/caitlin.jpg",
-  },
   {
     name: "Wayne Chang",/*Ivan (Vanko) Chanev*/
     account: "@stickman",
