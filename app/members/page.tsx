@@ -195,7 +195,7 @@ function MemberCard({ m }: { m: Member }) {
         </div>
 
         {/* TEXT */}
-        <div>
+        <div className="min-w-0">
           <h2
             className={`text-[22px] leading-tight md:text-[24px] ${youngSerif.className}`}
           >
@@ -214,7 +214,7 @@ function MemberCard({ m }: { m: Member }) {
             <div>Nationality: {m.nationality || "—"}</div>
           </div>
 
-          <ul className="mt-5 list-disc space-y-1 pl-5 text-[14px] leading-[1.35] text-white/95">
+          <ul className="mt-5 list-disc space-y-1 pl-5 text-[14px] leading-[1.35] text-white/95 whitespace-pre-line">
             {m.bullets.map((b, i) => (
               <li key={i}>{b}</li>
             ))}
