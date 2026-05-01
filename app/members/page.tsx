@@ -180,7 +180,7 @@ export default function MembersPage() {
 function MemberCard({ m }: { m: Member }) {
   return (
     <article className="rounded-[16px] bg-[#956297] px-6 py-6 text-white">
-      <div className="grid grid-cols-[200px_1fr] items-start gap-5">
+      <div className="grid grid-cols-[120px_1fr] sm:grid-cols-[160px_1fr] md:grid-cols-[200px_1fr] items-start gap-4 sm:gap-5">
 
         {/* IMAGE */}
         <div className="rounded-[16px] bg-white p-[8px] w-full">
