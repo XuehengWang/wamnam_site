@@ -57,7 +57,7 @@ const members: Member[] = [
     account: "@caitlincharters",
     pronouns: "She / Her",
     style: "",
-    nationality: "British",
+    nationality: "Scottish",
     bullets: [
       "1",
       "2",
@@ -105,7 +105,7 @@ const members: Member[] = [
     account: "@maxev_",
     pronouns: "He / Him",
     style: "Hip-hop / Commercial / Contemporary",
-    nationality: "British",
+    nationality: "English",
     bullets: [
       "Trained as a Contemporary dancer",
       "Professional Choreographer\nand Dance teacher",
