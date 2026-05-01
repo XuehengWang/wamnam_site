@@ -127,14 +127,14 @@ const members: Member[] = [
   },*/
   {
     name: "Caitlin Charters",/*Katerina Cherneva*/
-    account: "@chertsova.dance",
-    pronouns: "She/Her",
-    style: "this girlie does everything",
-    nationality: "Bulgaria",
+    account: "@caitlincharters",
+    pronouns: "She / Her",
+    style: "",
+    nationality: "British",
     bullets: [
-      "Leader/founder of WAMNAM",
-      "Classically trained dancer with 10+ years’ experience",
-      "stress stress stress",
+      "1",
+      "2",
+      "3",
     ],
     image: "/images/members/caitlin.jpg",
   },
