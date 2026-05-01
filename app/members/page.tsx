@@ -215,11 +215,11 @@ function MemberCard({ m }: { m: Member }) {
             <div>Nationality: {m.nationality || "—"}</div>
           </div>
 
-          <ul className="mt-4 sm:mt-5 list-disc space-y-1 pl-5 text-[13px] sm:text-[14px] leading-[1.35] text-white/95 whitespace-pre-line">
-            {m.bullets.map((b, i) => (
-              <li key={i}>{b}</li>
-            ))}
-          </ul>
+          <ul className="col-span-2 md:col-span-1 mt-4 sm:mt-5 list-disc space-y-1 pl-5 text-[13px] sm:text-[14px] leading-[1.35] text-white/95 whitespace-pre-line">
+  {m.bullets.map((b, i) => (
+    <li key={i}>{b}</li>
+  ))}
+</ul>
         </div>
 
       </div>
