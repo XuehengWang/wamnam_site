@@ -68,8 +68,8 @@ const members: Member[] = [
   {
     name: "Iva Stratieva",
     account: "@ivaxstr",
-    pronouns: "She/Her",
-    style: "Hip-hop, Contemporary Fusion",
+    pronouns: "She / Her",
+    style: "Hip-hop / Contemporary Fusion",
     nationality: "Bulgarian/Luxembourger",
     bullets: ["Teacher & Choreographer of 6+ years",
       "Passionate performer with extensive stage & camera experience",
