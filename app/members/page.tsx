@@ -55,13 +55,13 @@ const members: Member[] = [
   {
     name: "Caitlin Charters",/*Katerina Cherneva*/
     account: "@caitlincharters",
-    pronouns: "She / Her",
-    style: "",
+    pronouns: "She/Her",
+    style: "Jazz Funk/Contemporary/Lyrical",
     nationality: "Scottish",
     bullets: [
-      "1",
-      "2",
-      "3",
+      "Former cruise ship production dancer",
+      "20+ years of training in styles including tap, ballet, latin, jazz and contemporary",
+      "BA (Hons) in Dance for Commercial Performance (1st Class)",
     ],
     image: "/images/members/caitlin.jpg",
   },
@@ -119,9 +119,9 @@ const members: Member[] = [
     style: "Hip-hop",
     nationality: "Indonesian",
     bullets: [
-      "5+ years of hip-hop dance experience",
-      "Dance teacher and choreographer",
-      "Enyoy your food",
+      "5+ years of hip-hop dance experience + other street styles (e.g. locking, house, breaking, and krumping"),
+      "dance teacher and choreographer",
+      "freestyle enthusiast",
     ],
     image: "/images/members/matt.JPG",
   },
