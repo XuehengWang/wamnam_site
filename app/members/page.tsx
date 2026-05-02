@@ -69,9 +69,12 @@ const members: Member[] = [
     name: "Iva Stratieva",
     account: "@ivaxstr",
     pronouns: "She/Her",
-    style: "Hip Hop, Contemporary Fusion",
+    style: "Hip-hop, Contemporary Fusion",
     nationality: "Bulgarian/Luxembourger",
-    bullets: ["feta", "multicolour salt", "banitsa"],
+    bullets: ["Teacher & Choreographer of 6+ years",
+      "Passionate performer with extensive stage & camera experience",
+      "UX designer in training :)"
+],
     image: "/images/members/iva.jpg",
   },
   {
@@ -119,7 +122,7 @@ const members: Member[] = [
     style: "Hip-hop",
     nationality: "Indonesian",
     bullets: [
-      "5+ years of hip-hop dance experience + other street styles (e.g. locking, house, breaking, and krumping"),
+      "5+ years of hip-hop dance experience + other street styles (e.g. locking, house, breaking, and krumping)",
       "dance teacher and choreographer",
       "freestyle enthusiast",
     ],
