@@ -141,8 +141,8 @@ const members: Member[] = [
     ],
     image: "/images/members/alex.JPG",
   },*/
-  {
-    name: "Wayne Chang",/*Ivan (Vanko) Chanev*/
+  /*{
+    name: "Wayne Chang", Ivan (Vanko) Chanev
     account: "@stickman",
     pronouns: "",
     style: "",
@@ -153,7 +153,7 @@ const members: Member[] = [
       "3",
     ],
     image: "/images/members/wayne.jpg",
-  },
+  },*/
   
 ];
 export default function MembersPage() {
