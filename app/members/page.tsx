@@ -150,7 +150,7 @@ const members: Member[] = [
     bullets: [
       "Choreographer, performer and teacher with 5+ years experience",
       "Avid freestyler with competition awards in the UK",
-      "Enthusiastic artistic director and community advocate",
+      "Artistic director and community advocate",
     ],
     image: "/images/members/wayne.jpg",
   },
