@@ -141,19 +141,19 @@ const members: Member[] = [
     ],
     image: "/images/members/alex.JPG",
   },*/
-  /*{
-    name: "Wayne Chang", Ivan (Vanko) Chanev
-    account: "@stickman",
-    pronouns: "",
-    style: "",
-    nationality: "",
+  {
+    name: "Wayne Chang", /*Ivan (Vanko) Chanev*/
+    account: "@wchang1000",
+    pronouns: "He / Him",
+    style: "Whacking / Commercial",
+    nationality: "Taiwanese",
     bullets: [
-      "1",
-      "2",
-      "3",
+      "Choreographer, performer and teacher with 5+ years experience",
+      "Avid freestyler with competition awards in the UK",
+      "Enthusiastic artistic director and community advocate",
     ],
     image: "/images/members/wayne.jpg",
-  },*/
+  },
   
 ];
 export default function MembersPage() {
