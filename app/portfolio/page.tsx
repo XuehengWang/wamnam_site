@@ -27,7 +27,7 @@ export default function PortfolioPage() {
         <h1
           className={`text-center text-3xl font-normal tracking-tight text-black md:text-4xl ${youngSerif.className}`}
         >
-          PORTFOLIO - choreography & projects
+          Our Work - choreography & projects
         </h1>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-7">
