@@ -152,7 +152,7 @@ const members: Member[] = [
       "Avid freestyler with competition awards in the UK",
       "Artistic director and community advocate",
     ],
-    image: "/images/members/wayne.jpg",
+    image: "/images/members/WAYNE.jpg",
   },
   
 ];
