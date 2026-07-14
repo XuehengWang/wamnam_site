@@ -70,18 +70,6 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-
-          {/* Bottom-right*/}
-          <div className="mt-16 flex justify-end">
-            <div className="relative h-[235px] w-[360px] overflow-hidden bg-[#666]">
-              <Image
-                src="/images/dancehouse(nonono).png"
-                alt="Sponsor"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
         </div>
       </section>
 
