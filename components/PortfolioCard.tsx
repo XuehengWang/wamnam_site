@@ -5,7 +5,7 @@ import type { PortfolioItem } from "@/lib/portfolio_data";
 
 export default function PortfolioCard({ item }: { item: PortfolioItem }) {
   return (
-    <article className="rounded-[16px] border-[2px] border-[#5B8280] bg-[#f8f8f8] px-6 py-6 shadow-[0_4px_14px_rgba(0,0,0,0.08)]">
+    <article className="rounded-[16px] border-[2px] border-[#AED7D3] bg-[#f8f8f8] px-6 py-6 shadow-[0_4px_14px_rgba(0,0,0,0.08)]">
       <div className="mx-auto max-w-[460px]">
         <div className="relative aspect-[16/9] overflow-hidden rounded-[24px] bg-[#ddd]">
           <Image
