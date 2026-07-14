@@ -158,7 +158,7 @@ const members: Member[] = [
 ];
 export default function MembersPage() {
   return (
-    <main className="min-h-screen bg-[#efefef] text-slate-900">
+    <main className="min-h-screen bg-[#ffffff] text-slate-900">
       <TopNav />
 
       <section className="mx-auto max-w-7xl px-6 py-12 md:px-10">
