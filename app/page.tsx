@@ -104,8 +104,8 @@ function Marquee() {
     <div className="border-y border-slate-200 bg-[#f8f8f6]">
       <div className="overflow-hidden py-4">
         <div className="marquee whitespace-nowrap text-[14px] text-slate-500">
-          <span className="mx-4 inline-block">{text.repeat(8)}</span>
-          <span aria-hidden className="mx-4 inline-block">
+          <span className="inline-block">{text.repeat(8)}</span>
+          <span aria-hidden className="inline-block">
             {text.repeat(8)}
           </span>
         </div>
