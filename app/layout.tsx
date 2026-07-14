@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { inter, youngSerif } from "@/lib/fonts";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -52,7 +52,19 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         {children}
       </body>
-      <GoogleAnalytics gaId="G-QRVWM5E2E4" />
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-QRVWM5E2E4"
+        strategy="afterInteractive"
+      />
+      <Script id="ga" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+      
+          gtag('config', 'G-QRVWM5E2E4');
+        `}
+      </Script>
     </html>
   );
 }
