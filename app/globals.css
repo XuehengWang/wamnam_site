@@ -55,7 +55,7 @@ body {
 .marquee {
   display: flex;
   width: max-content;
-  animation: marquee-scroll 28s linear infinite;
+  animation: marquee-scroll 60s linear infinite;
 }
 
 @keyframes marquee-scroll {
