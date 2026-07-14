@@ -123,7 +123,7 @@ function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.08),transparent_28%),radial-gradient(circle_at_75%_30%,rgba(255,255,255,0.06),transparent_24%),radial-gradient(circle_at_50%_70%,rgba(255,255,255,0.04),transparent_26%)]" />
 
       {/* dotted texture */}
-      <div className="pointer-events-none absolute inset-0 opacity-25 [background-image:radial-gradient(rgba(255,255,255,0.18)_1px,transparent_1px)] [background-size:22px_22px]" />
+      <div className="pointer-events-none absolute inset-0 opacity-40 [background-image:radial-gradient(rgba(255,255,255,0.18)_1px,transparent_1px)] [background-size:22px_22px]" />
 
       <div className="relative mx-auto grid max-w-[1400px] gap-16 px-16 py-8 md:grid-cols-[0.85fr_1.15fr] md:items-center lg:gap-20 lg:px-28">
         {/* left image frame */}
