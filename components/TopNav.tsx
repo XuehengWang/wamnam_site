@@ -9,7 +9,7 @@ export default function TopNav() {
   const [portfolioOpen, setPortfolioOpen] = useState(false);
 
   return (
-    <header className={`sticky top-0 z-50 bg-pink-200/90 ${youngSerif.className}`}>
+    <header className={`sticky top-0 z-50 bg-pink-200 ${youngSerif.className}`}>
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
         
         {/* Logo */}
