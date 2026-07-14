@@ -40,13 +40,7 @@ export default function PortfolioCard({ item }: { item: PortfolioItem }) {
               {item.dateLocation}
             </p>
           )}
-
-          /* {item.description && (
-            <p className="mx-auto mt-4 max-w-[500px] text-[14px] font-semibold leading-[1.15] text-black">
-              {item.description}
-            </p>
-          )} */
-
+          <br></br>
 
           {item.youtubeUrl && item.category === "video-projects" && (
             <div className="mt-4 flex justify-end">
