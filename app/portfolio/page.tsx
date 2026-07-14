@@ -19,7 +19,7 @@ const teachingExperience = portfolioItems.filter(
 
 export default function PortfolioPage() {
   return (
-    <main className="min-h-screen bg-[#efefef] text-black">
+    <main className="min-h-screen bg-[#ffffff] text-black">
     {/* <main className="min-h-screen bg-white text-black"> */}
       <TopNav />
 
