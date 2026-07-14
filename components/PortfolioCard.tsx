@@ -5,7 +5,7 @@ import type { PortfolioItem } from "@/lib/portfolio_data";
 
 export default function PortfolioCard({ item }: { item: PortfolioItem }) {
   return (
-    <article className="rounded-[16px] border-[2px] border-[#a8deea] bg-[#f8f8f8] px-6 py-6 shadow-[0_4px_14px_rgba(0,0,0,0.08)]">
+    <article className="rounded-[16px] border-[2px] border-[#5B8280] bg-[#f8f8f8] px-6 py-6 shadow-[0_4px_14px_rgba(0,0,0,0.08)]">
       <div className="mx-auto max-w-[460px]">
         <div className="relative aspect-[16/9] overflow-hidden rounded-[24px] bg-[#ddd]">
           <Image
@@ -40,18 +40,17 @@ export default function PortfolioCard({ item }: { item: PortfolioItem }) {
               {item.dateLocation}
             </p>
           )}
-          <br></br>
 
           {item.youtubeUrl && item.category === "video-projects" && (
-            <div className="mt-4 flex justify-end">
+            <div className="mt-4 flex justify-center">
               <a
-  href={item.youtubeUrl}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-[16px] font-bold text-[#2a7f84] underline underline-offset-2 hover:opacity-80"
->
-  {"> watch this on youtube"}
-</a>
+                href={item.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[16px] font-bold text-[#2a7f84] underline underline-offset-2 hover:opacity-80"
+              >
+                {"Watch this on Youtube"}
+              </a>
             </div>
           )}
         </div>
