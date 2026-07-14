@@ -182,7 +182,7 @@ export default function MembersPage() {
 
 function MemberCard({ m }: { m: Member }) {
   return (
-    <article className="rounded-[16px] bg-[#956297] px-4 py-5 sm:px-6 sm:py-6 text-white">
+    <article className="rounded-[16px] bg-[#5F305B] px-4 py-5 sm:px-6 sm:py-6 text-white">
       
       <div className="grid grid-cols-[110px_1fr] sm:grid-cols-[140px_1fr] md:grid-cols-[200px_1fr] items-start gap-4 sm:gap-5">
 
