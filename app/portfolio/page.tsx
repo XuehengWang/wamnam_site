@@ -33,21 +33,21 @@ export default function PortfolioPage() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-7">
           <Link
             href="/portfolio/video_project"
-            className="rounded-full border border-[#2e5960] bg-[#9bd4e1] px-7 py-2 text-[16px] leading-none text-[#234147] hover:opacity-90"
+            className="rounded-full bg-[#BEE4E1] px-7 py-2 text-[16px] leading-none text-[#234147] hover:opacity-90"
           >
             Video Projects
           </Link>
 
           <Link
             href="/portfolio/live"
-            className="rounded-full border border-[#2e5960] bg-[#9bd4e1] px-7 py-2 text-[16px] leading-none text-[#234147] hover:opacity-90"
+            className="rounded-full bg-[#BEE4E1] px-7 py-2 text-[16px] leading-none text-[#234147] hover:opacity-90"
           >
             Theatre & Live
           </Link>
 
           <Link
             href="/portfolio/teach"
-            className="rounded-full border border-[#2e5960] bg-[#9bd4e1] px-7 py-2 text-[16px] leading-none text-[#234147] hover:opacity-90"
+            className="rounded-full bg-[#BEE4E1] px-7 py-2 text-[16px] leading-none text-[#234147] hover:opacity-90"
           >
             Teaching
           </Link>
